@@ -36,7 +36,6 @@
 
 ; ----------------------------------------------------------------------
 
-
 (defn rand-modified-input []
   (let [rand-index (rand-int (count input))
         inputv (into [] input)
